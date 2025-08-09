@@ -1,0 +1,21 @@
+a{text-decoration: none;}
+ul li {list-style: none;}
+.card-container{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 15% 5%;
+}
+.card-container div a{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.nav-links a{
+    color: rgb(156, 156, 156);
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+.active-link a,
+.nav-links a:hover{
+    color: black;
+}
